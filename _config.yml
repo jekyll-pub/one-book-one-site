@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: 壹书壹网站
+description: 研究基于 Jekyll 编写和发布图书的技术！
 theme: just-the-docs
+favicon_ico: "/assets/images/favicon.ico"
+url: 
 
-url: https://just-the-docs.github.io
+collections:
+  chapters:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  collections:
+    name: Chapters
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  书稿: https://github.com/jekyll-pub/one-book-one-site
