@@ -1,6 +1,7 @@
 ---
-title: 序言
+title: 扉页
 layout: home
+nav_order: 0
 ---
 
 # 聚焦用 Jekyll 编写图书

@@ -2,16 +2,31 @@ title: 壹书壹网站
 description: 研究基于 Jekyll 编写和发布图书的技术！
 theme: just-the-docs
 favicon_ico: "/assets/images/favicon.ico"
-url: 
+url: ""
+permalink: pretty
+defaults:
+  - scope:
+      path: "chapters" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
 
-collections:
-  chapters:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  collections:
-    name: Chapters
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: 重点
+    color: blue
+  new:
+    title: 新增
+    color: green
+  note:
+    title: 切记
+    color: purple
+  warning:
+    title: 注意
+    color: red
 
 aux_links:
   书稿: https://github.com/jekyll-pub/one-book-one-site
