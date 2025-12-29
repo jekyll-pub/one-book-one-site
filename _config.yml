@@ -1,4 +1,4 @@
-title: 壹书壹网站
+title: 壹书壹网站 # 书名
 description: 研究基于 Jekyll 编写和发布图书的技术！
 theme: just-the-docs
 favicon_ico: "/assets/images/favicon.ico"
@@ -6,7 +6,7 @@ url: ""
 permalink: pretty
 defaults:
   - scope:
-      path: "chapters" # an empty string here means all files in the project
+      path: "chapters" # 空字符串意味着项目的所有文件
       type: "pages"
     values:
       layout: "default"
