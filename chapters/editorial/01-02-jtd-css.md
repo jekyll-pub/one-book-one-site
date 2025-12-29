@@ -1,6 +1,6 @@
 ---
-title: 2 Just the Docs 样式
-parent: 一 编辑基础
+title: 1.2 Just the Docs 样式
+parent: 1 编辑基础
 nav_order: 2
 ---
 

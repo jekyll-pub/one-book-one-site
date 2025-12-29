@@ -1,5 +1,5 @@
 ---
-title: 一 编辑基础
+title: 1 编辑基础
 nav_order: 2
 ---
 
