@@ -16,16 +16,16 @@ callouts:
   highlight:
     color: yellow
   important:
-    title: 重点
+    title: 重点！
     color: blue
   new:
-    title: 新增
+    title: 新增！
     color: green
   note:
-    title: 切记
+    title: 谨记！
     color: purple
   warning:
-    title: 注意
+    title: 注意！
     color: red
 
 aux_links:
